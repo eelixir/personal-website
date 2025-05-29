@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>elixir</title>
+    <title>elxrr.me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
                 <h1>elixir</h1>
                 <p class="location">london, uk</p>
                 <p class="bio">
-                    cs student. interested in programming, ai, ml, robotics, cyber security and building stuff
+                    cs student. interested in programming, software development, cyber security and building stuff
                 </p>
             </div>
         </section>
@@ -26,8 +26,7 @@
                     <p class="role">founder / video editor</p>
                     <p class="dates">(2022-2024)</p>
                     <p class="description">
-                        ran a video editing agency delivering content for
-                        creators and business gathering a total of 300M+ views.
+                        ran a video editing agency delivering content for creators and business gathering a total of 300M+ views.
                     </p>
                 </div>
             </section>
@@ -57,17 +56,19 @@
         }
 
         body {
-            font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-            background-color: #161620;
-            color: #e2e8f0;
+            font-family: 'Cascadia Code', monospace;
+            background-color: #F8F8F8; /* Off-white background */
+            color: #1A1A1A; /* Dark text */
             line-height: 1.6;
             font-size: 14px;
+            font-weight: 400;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
         }
 
-        /* Navigation */
+        /* Navigation - Removed as it's not present in the original HTML structure but defined in CSS */
+        /* If you intended to add a navigation bar, please provide the HTML for it. */
         nav {
             position: fixed;
             top: 0;
@@ -77,20 +78,20 @@
             justify-content: space-between;
             align-items: center;
             padding: 1rem 2rem;
-            background-color: rgba(22, 22, 32, 0.9);
+            background-color: rgba(248, 248, 248, 0.9); /* Semi-transparent off-white */
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #E0E0E0; /* Light gray border */
             z-index: 1000;
         }
 
         nav a {
-            color: #8b5cf6;
+            color: #0000FF; /* Blue for links */
             text-decoration: none;
             margin-right: 2rem;
         }
 
         nav a:hover {
-            color: #6d28d9;
+            color: #000088; /* Darker blue on hover */
         }
 
         .nav-right {
@@ -99,7 +100,7 @@
         }
 
         .status {
-            color: #22d3ee;
+            color: #008080; /* Teal for status */
             font-size: 12px;
         }
 
@@ -120,22 +121,22 @@
         .intro h1 {
             font-size: 2rem;
             font-weight: normal;
-            color: #c084fc;
+            color: #000000; /* Black for main heading */
             margin-bottom: 0.5rem;
         }
 
         .location {
-            color: #94a3b8;
+            color: #555555; /* Dark gray for location */
             margin-bottom: 0.5rem;
         }
 
         .status-text {
-            color: #94a3b8;
+            color: #555555; /* Dark gray for status text */
             margin-bottom: 0.5rem;
         }
 
         .highlight {
-            color: #22d3ee;
+            color: #008080; /* Teal for highlights */
         }
 
         .emoji {
@@ -143,7 +144,7 @@
         }
 
         .bio {
-            color: #cbd5e1;
+            color: #333333; /* Slightly lighter black for bio */
             max-width: 400px;
         }
 
@@ -159,7 +160,7 @@
         }
 
         .section h2 {
-            color: #22d3ee;
+            color: #000000; /* Black for section headings */
             font-size: 1.5rem;
             font-weight: normal;
             margin-bottom: 2rem;
@@ -169,7 +170,7 @@
         .work-item {
             margin-bottom: 2.5rem;
             padding-bottom: 2rem;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #E0E0E0; /* Light gray border */
         }
 
         .work-item:last-child {
@@ -177,47 +178,47 @@
         }
 
         .work-item h3 {
-            color: #8b5cf6;
+            color: #0000FF; /* Blue for work item headings */
             font-weight: normal;
             margin-bottom: 0.3rem;
         }
 
         .work-item h3 a {
-            color: #8b5cf6;
+            color: #0000FF; /* Blue for work item links */
             text-decoration: none;
         }
 
         .work-item h3 a:hover {
-            color: #6d28d9;
+            color: #000088; /* Darker blue on hover */
         }
 
         .role {
-            color: #94a3b8;
+            color: #555555; /* Dark gray for role */
             font-size: 13px;
             margin-bottom: 0.2rem;
         }
 
         .dates {
-            color: #64748b;
+            color: #777777; /* Medium gray for dates */
             font-size: 12px;
             margin-bottom: 0.8rem;
         }
 
         .description {
-            color: #cbd5e1;
+            color: #333333; /* Slightly lighter black for description */
             line-height: 1.5;
         }
 
         /* Projects section */
         .coming-soon {
-            color: #64748b;
+            color: #777777; /* Medium gray for coming soon */
             font-style: italic;
         }
 
         .project-item {
             margin-bottom: 2rem;
             padding-bottom: 1.5rem;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #E0E0E0; /* Light gray border */
         }
 
         .project-item:last-child {
@@ -225,24 +226,24 @@
         }
 
         .project-item h3 {
-            color: #8b5cf6;
+            color: #0000FF; /* Blue for project item headings */
             font-weight: normal;
             margin-bottom: 0.5rem;
         }
 
         .project-link {
-            color: #94a3b8;
+            color: #555555; /* Dark gray for project links */
             text-decoration: none;
             font-size: 13px;
         }
 
         .project-link:hover {
-            color: #64748b;
+            color: #777777; /* Medium gray on hover */
         }
 
         /* Contact Footer */
         .contact-footer {
-            background-color: #161620;
+            background-color: #F8F8F8; /* Footer background matches body */
             padding: 2rem;
             margin-top: auto;
         }
@@ -257,23 +258,56 @@
         }
 
         .contact-links a {
-            color: #8b5cf6;
+            color: #0000FF; /* Blue for contact links */
             text-decoration: none;
         }
 
         .contact-links a:hover {
-            color: #6d28d9;
+            color: #000088; /* Darker blue on hover */
         }
 
         /* Mobile responsive */
         @media (max-width: 768px) {
+            body {
+                font-size: 15px;
+                font-weight: 500;
+            }
+
             main {
                 padding: 1rem;
             }
 
+            .hero {
+                margin-bottom: 2.5rem;
+            }
+
             .sections-container {
                 flex-direction: column;
-                gap: 2rem;
+                gap: 1.5rem;
+            }
+
+            .section {
+                margin-bottom: 1.5rem;
+            }
+
+            .section h2 {
+                font-size: 1.3rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            .intro h1 {
+                font-size: 2.2rem;
+                font-weight: 600;
+            }
+
+            .bio {
+                font-weight: 500;
+                font-size: 15px;
+            }
+
+            .work-item h3 {
+                font-weight: 600;
             }
 
             .contact-footer {
@@ -285,6 +319,10 @@
                 gap: 1rem;
                 text-align: center;
             }
+
+            .contact-links a {
+                font-weight: 600;
+            }
         }
 
         /* Smooth scrolling */
@@ -294,8 +332,8 @@
 
         /* Selection color */
         ::selection {
-            background-color: #8b5cf6;
-            color: #161620;
+            background-color: #AAAAAA; /* Gray selection background */
+            color: #000000; /* Black selection text */
         }
     </style>
 </body>
