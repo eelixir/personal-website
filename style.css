@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Cascadia Code';
+    font-family: 'Cascadia Code', 'Courier New', monospace;
     background-color: #F8F8F8;
     color: #1A1A1A;
     line-height: 1.6;
