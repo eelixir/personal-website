@@ -278,17 +278,31 @@
             }
 
             .hero {
-                margin-bottom: 2.5rem;
+                /* Set margin-bottom to match the gap in .sections-container on mobile */
+                margin-bottom: 1.5rem;
             }
 
             .sections-container {
                 flex-direction: column;
-                gap: 1.5rem;
+                gap: 1.5rem; /* This is the desired spacing */
             }
 
             .section {
-                margin-bottom: 1.5rem;
+                /* Removed margin-bottom here to let the gap in sections-container control spacing */
+                margin-bottom: 0;
             }
+
+            /* Adjust the margin-bottom for the last work-item within a section if needed */
+            .work-item {
+                margin-bottom: 2.5rem; /* Keep this for spacing between work items */
+                padding-bottom: 2rem;
+                border-bottom: 1px solid #E0E0E0;
+            }
+            .work-item:last-child {
+                border-bottom: none;
+                margin-bottom: 0; /* Remove extra margin for the last work item */
+            }
+
 
             .section h2 {
                 font-size: 1.3rem;
