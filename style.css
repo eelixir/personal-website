@@ -1,0 +1,261 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: #F8F8F8;
+    color: #1A1A1A;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Hero section */
+.hero {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    color: #555555;
+    margin-bottom: 0.5rem;
+}
+
+.status-text {
+    color: #555555;
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    color: #008080; 
+}
+
+.emoji {
+    margin-bottom: 1rem;
+}
+
+.bio {
+    color: #333333; 
+    max-width: 400px;
+}
+
+/* Sections */
+.sections-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.section {
+    margin-bottom: 4rem;
+    flex: 1;
+}
+
+.section h2 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+/* Work section */
+.work-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #E0E0E0; 
+}
+
+.work-item:last-child {
+    border-bottom: none;
+}
+
+.work-item h3 {
+    color: #0000FF;
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+}
+
+.work-item h3 a {
+    color: #0000FF; 
+    text-decoration: none;
+}
+
+.work-item h3 a:hover {
+    color: #000088; 
+}
+
+.role {
+    color: #555555;
+    font-size: 13px;
+    margin-bottom: 0.2rem;
+}
+
+.dates {
+    color: #777777;
+    font-size: 12px;
+    margin-bottom: 0.8rem;
+}
+
+.description {
+    color: #333333; 
+    line-height: 1.5;
+}
+
+/* Projects section */
+.coming-soon {
+    color: #777777; 
+    font-style: italic;
+}
+
+.project-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #E0E0E0; 
+}
+
+.project-item:last-child {
+    border-bottom: none;
+}
+
+.project-item h3 {
+    color: #0000FF;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.project-link {
+    color: #555555;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.project-link:hover {
+    color: #777777; 
+}
+
+/* Contact Footer */
+.contact-footer {
+    background-color: #F8F8F8; 
+    padding: 2rem;
+    margin-top: auto;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-links a {
+    color: #0000FF; 
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #000088; 
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .hero {
+        margin-bottom: 1.5rem;
+    }
+
+    .sections-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .section {
+        margin-bottom: 0;
+    }
+
+    .work-item {
+        margin-bottom: 2.5rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .work-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0; 
+    }
+
+
+    .section h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    .intro h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .bio {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .work-item h3 {
+        font-weight: 600;
+    }
+
+    .contact-footer {
+        padding: 1.5rem 1rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .contact-links a {
+        font-weight: 600;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background-color: #AAAAAA; 
+    color: #000000; 
+}
