@@ -196,11 +196,11 @@ main {
 
     .sections-container {
         flex-direction: column;
-        gap: 0rem; /* removed extra spacing between .section elements */
+        gap: 0rem;
     }
 
     .section {
-        margin-bottom: 2rem; /* reduced from 4rem */
+        margin-bottom: 2rem; 
     }
 
     .section h2 {
@@ -226,7 +226,7 @@ main {
     }
 
     .work-item:last-child {
-        margin-bottom: 0rem; /* remove extra gap after last work item */
+        margin-bottom: 0rem;
         padding-bottom: 0.5rem;
         border-bottom: none;
     }
