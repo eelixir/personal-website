@@ -144,6 +144,15 @@ main {
     margin-bottom: 0.5rem;
 }
 
+.project-item h3 a {
+    color: #0000FF; 
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    color: #000088; 
+}
+
 .project-link {
     color: #555555;
     text-decoration: none;
